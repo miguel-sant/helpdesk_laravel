@@ -10,14 +10,15 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/img/background.jpg);
+    background: url(/img/background.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .wrapper{
     position: relative;
-    width: 420px;
-    background: transparent;   /* Aqui eu coloquei o fundo do meu container wrapper como transparente*/ 
+    width: 400px;
+    height: 500px;
+    background: transparent;   /* Aqui eu coloquei o fundo do meu container wrapper como transparente*/
     border-radius: 15px;
     padding: 30px 40px;
     backdrop-filter: blur(20px);  /* Aplica o efeito de borrão, porém preciso declarar o background dele como transparente antes*/
@@ -87,8 +88,8 @@ body{
 }
 
 .wrapper .btn:hover{
-    
-    background-color: rgb(245, 110, 0);
+
+    background-color: rgb(41, 19, 184);
     color: white;
 }
 

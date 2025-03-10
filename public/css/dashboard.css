@@ -339,6 +339,39 @@ main .new-users .user-list .user img{
     border-radius: 50%;
 }
 
+
+/* USUARIOS */
+main .usuarios .lista-usuarios{
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    transition: all 0.3s ease;
+    height: 88vh;
+}
+
+main .usuarios .lista-usuarios:hover{
+    box-shadow: none;
+}
+
+main .usuarios .lista-usuarios .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .usuarios .lista-usuarios .user img{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0.4rem;
+    border-radius: 50%;
+}
+/* FIM USUARIOS */
 main .recent-orders{
     margin-top: 1.3rem;
 }
@@ -613,7 +646,7 @@ main .recent-orders a{
     @keyframes showMenu {
        to{
         left: 0;
-       } 
+       }
     }
 
     aside .logo{
@@ -705,4 +738,8 @@ main .recent-orders a{
         font-size: 2rem;
     }
 
+}
+
+#myTable_length{
+    margin-bottom: 20px;
 }

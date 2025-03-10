@@ -28,7 +28,7 @@
             </div>
 
             <div class="sidebar">
-                <a href="#" class="active">
+                <a href="#">
                     <span class="material-icons-sharp">
                         dashboard
                     </span>
@@ -38,9 +38,9 @@
                     <span class="material-icons-sharp">
                         person_outline
                     </span>
-                    <h3>Sistemas</h3>
+                    <h3 class="text-center">Sistemas</h3>
                 </a>
-                <a href="#">
+                <a href="#" class="active">
                     <span class="material-icons-sharp">
                         receipt_long
                     </span>
@@ -58,63 +58,32 @@
 
         <!-- Main Content -->
         <main>
-            <h1>Quantitativo</h1>
+            <br><br>
             <!-- Analyses -->
             <div class="analyse">
                 <div class="sales">
                     <div class="status">
                         <div class="info">
-                            <h3>Diário</h3>
-                            <h1>3333</h1>
+                            <h1>Total de erros</h3>
+                            <h3>3333</h1>
                         </div>
-                        <div class="progresss">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
-                            </svg>
-                            <div class="percentage">
-                                <p>+81%</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
-                <div class="visits">
+                <div class="sales">
                     <div class="status">
                         <div class="info">
-                            <h3>Semanal</h3>
-                            <h1>222222</h1>
-                        </div>
-                        <div class="progresss">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
-                            </svg>
-                            <div class="percentage">
-                                <p>-48%</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="searches">
-                    <div class="status">
-                        <div class="info">
-                            <h3>Mensal</h3>
-                            <h1>{{$maxChamados}}</h1>
-                        </div>
-                        <div class="progresss">
-                            <svg>
-                                <circle cx="38" cy="38" r="36"></circle>
-                            </svg>
-                            <div class="percentage">
-                                <p>+21%</p>
-                            </div>
+                            <h1>Última atualização</h3>
+                            <h3>20/10/1203</h1>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End of Analyses -->
-
             <!-- Recent Orders Table -->
             <div class="recent-orders">
-                <h2>Erros Recentes</h2>
+                <br><br>
+                <h2>Histórico Geral</h2>
+                <br>
                 <table id="myTable">
                     <thead>
                         <tr>
@@ -124,13 +93,66 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($chamados as $chamado)
                         <tr>
-                            <td>{{$chamado->nome}}</td>
+                            <td>SIGEO
                             <td>API SIGP CAIU MAIS UMA VEZ</td>
                             <td>10-12-2025</td>
                         </tr>
-                        @endforeach
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                        <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
+                         <tr>
+                            <td>SIGEO
+                            <td>API SIGP CAIU MAIS UMA VEZ</td>
+                            <td>10-12-2025</td>
+                        </tr>
                     </tbody>
                 </table>
                 <a href="#">Show All</a>
